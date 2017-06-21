@@ -1,1 +1,1 @@
-# GIT-1
+# This repository is used to store homework
