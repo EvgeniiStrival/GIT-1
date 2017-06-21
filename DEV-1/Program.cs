@@ -10,8 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i <= 100; i++)
             {
+
                 if (i % 3 == 0)
                 {
                     System.Console.WriteLine("3*" + i / 3);
@@ -21,6 +22,7 @@ namespace ConsoleApplication1
                     System.Console.WriteLine(i);
                 }
             }
+
             System.Console.Read();
             
         }
