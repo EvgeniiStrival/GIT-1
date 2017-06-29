@@ -1,16 +1,15 @@
 ﻿using System;
 
-
 namespace SequenceNumbers
 {
-    class Program
+    class SequenceNumbersMain
     {
         static void Main(string[] args)
         {
             try
             {
                 // Size of sequence
-                Console.WriteLine("Enter size the massif");
+                Console.WriteLine("Enter size the sequence");
                 int sizeSequence = int.Parse(Console.ReadLine());
                 int[] mas = new int[sizeSequence];
 
